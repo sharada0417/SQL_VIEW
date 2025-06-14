@@ -1,0 +1,87 @@
+/*Hospital Database Schema*/
+
+
+/*1. Doctors Table  */
+
+
+ 
+INSERT INTO Doctor VALUES(1, 'Dr. John Doe',' Cardiology',021-222-1234);
+INSERT INTO Doctor VALUES(2,' Dr. Sarah Smith    ',' Neurology      ', 021-222-2345);     
+INSERT INTO Doctor VALUES(3,' Dr. James Brown    ',' Pediatrics     ', 021-222-3456);     
+INSERT INTO Doctor VALUES(4,' Dr. Lisa White     ',' Orthopedics    ', 021-222-4567);     
+INSERT INTO Doctor VALUES(5,' Dr. Michael Black  ',' Dermatology    ', 021-222-5678);     
+INSERT INTO Doctor VALUES(6,' Dr. Emily Green    ',' General        ', 021-222-6789);     
+INSERT INTO Doctor VALUES(7,' Dr. Daniel Lee     ',' Cardiology     ', 021-222-7890);     
+INSERT INTO Doctor VALUES(8,' Dr. Linda Clark    ',' Neurology      ', 021-222-8901);     
+INSERT INTO Doctor VALUES(9,' Dr. Steven Turner  ',' Pediatrics     ', 021-222-9012);     
+INSERT INTO Doctor VALUES(10,' Dr. Jessica Martinez',' Orthopedics   ', 021-222-0123);     
+
+
+
+/*2. Patients Table*/
+
+
+
+INSERT INTO Patient VALUES( 1  ,' Alice Johnson      ', 1985-05-12 ,' Female ',' 123 Elm St');
+INSERT INTO Patient VALUES( 2  ,' Bob Miller         ', 1990-02-23 ,' Male   ',' 456 Oak St');
+INSERT INTO Patient VALUES( 3  ,' Charlie Davis      ', 2001-07-30 ,' Male   ',' 789 Pine St');
+INSERT INTO Patient VALUES( 4  ,' Diana Wilson       ', 1975-09-14 ,' Female ',' 101 Maple St');
+INSERT INTO Patient VALUES( 5  ,' Eve Moore          ', 1982-04-19 ,' Female ',' 202 Birch St');
+INSERT INTO Patient VALUES(6   ,' Frank Harris       ', 1995-01-08 ,' Male   ',' 303 Cedar St');
+INSERT INTO Patient VALUES(7   ,' Grace Clark        ', 1989-12-25 ,' Female ',' 404 Pine St');
+INSERT INTO Patient VALUES( 8  ,' Henry Lewis        ', 2000-03-14 ,' Male   ',' 505 Maple St');
+INSERT INTO Patient VALUES(9   ,' Irene Robinson     ', 1983-06-22 ,' Female ',' 606 Oak St');
+INSERT INTO Patient VALUES(10  ,' Jack Walker        ', 1998-11-01 ,' Male   ',' 707 Birch St');
+
+
+
+/*3. Appointments Table */ 
+
+
+
+INSERT INTO Appointment VALUES(1, 1  , 2  ,2025-04-10,' Scheduled ');
+INSERT INTO Appointment VALUES(2, 2, 1 , 2025-04-15,' Scheduled ');
+INSERT INTO Appointment VALUES(3, 3, 5 , 2025-04-12 ,' Scheduled ');
+INSERT INTO Appointment VALUES(4, 4, 3 ,2025-04-20 ,' Scheduled ');
+INSERT INTO Appointment VALUES(5, 5, 2 , 2025-04-18,' Scheduled ');
+INSERT INTO Appointment VALUES(6, 6, 4 , 2025-04-25,' Scheduled ');
+INSERT INTO Appointment VALUES(7, 7, 6 , 2025-04-17,' Scheduled ');
+INSERT INTO Appointment VALUES(8, 8, 7 , 2025-04-22,' Scheduled ');
+INSERT INTO Appointment VALUES(9, 9, 8 , 2025-04-14 ,' Scheduled ');
+INSERT INTO Appointment VALUES(10, 10, 9 , 2025-04-24,' Scheduled ');
+
+
+
+/*4. Treatments Table */ 
+
+
+
+INSERT INTO Treatment VALUES( 1, 1,' X-ray          ', 150.00 );
+INSERT INTO Treatment VALUES( 2, 2,' MRI            ', 300.00 );
+INSERT INTO Treatment VALUES( 3, 3 ,' Blood Test     ', 100.00 );
+INSERT INTO Treatment VALUES( 4, 4 ,' Physical Therapy ', 200.00 );
+INSERT INTO Treatment VALUES( 5, 5 ,' Medication     ',50.00  );
+INSERT INTO Treatment VALUES( 6, 6 ,' Surgery        ', 800.00 );
+INSERT INTO Treatment VALUES( 7, 7,' MRI            ', 300.00 );
+INSERT INTO Treatment VALUES( 8, 8,' X-ray          ', 150.00 );
+INSERT INTO Treatment VALUES( 9 , 9 ,' Blood Test     ', 100.00 );
+INSERT INTO Treatment VALUES( 10, 10 ,' Physical Therapy ', 200.00 );
+
+
+
+/*5. Prescriptions Table*/ 
+
+
+
+INSERT INTO Prescription VALUES( 1,1,' Paracetamol  ',' 1 tablet twice a day' );
+INSERT INTO Prescription VALUES(  2, 2,' Ibuprofen      ',' 2 tablets daily   ' );
+INSERT INTO Prescription VALUES(  3 , 3 ,' Amoxicillin    ',' 1 capsule thrice a day ' );
+INSERT INTO Prescription VALUES(  4, 4 ,' Metformin      ',' 1 tablet after meals  ' );
+INSERT INTO Prescription VALUES(  5 , 5,' Lisinopril     ',' 1 tablet daily      ' );
+INSERT INTO Prescription VALUES(  6 , 6 ,' Amlodipine     ',' 1 tablet daily   ' );
+INSERT INTO Prescription VALUES(  7 , 7 ,' Paracetamol    ',' 1 tablet twice a day  ' );
+INSERT INTO Prescription VALUES(  8 , 8 ,' Ibuprofen      ',' 2 tablets daily    ' );
+INSERT INTO Prescription VALUES(  9 , 9 ,' Amoxicillin    ',' 1 capsule thrice a day ' );
+INSERT INTO Prescription VALUES(  10, 10 ,' Metformin      ',' 1 tablet after meals ' );
+
+
