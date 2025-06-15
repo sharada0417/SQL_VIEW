@@ -1,3 +1,4 @@
+                                                                            # Tutorial - 03
 # SQL view
 
 This project implements a basic hospital management system using MySQL/MariaDB. It covers essential entities such as doctors, patients, appointments, treatments, and prescriptions. It also defines helpful SQL views for common queries to simplify data analysis and reporting.
